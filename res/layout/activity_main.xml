@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="20"
+    tools:context="com.labs.modernartui.MainActivity" >
+    
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="19"
+        android:orientation="horizontal" 
+        android:paddingBottom="@dimen/activity_horizontal_margin" >
+        
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        android:orientation="vertical" 
+	        android:paddingRight="@dimen/activity_horizontal_margin" >
+	        
+	        <ImageView
+	            android:id="@+id/upperLeft"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+	        
+	        <ImageView
+	            android:id="@+id/bottomLeft"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"  />
+	        
+	     </LinearLayout>
+	     
+	     <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:orientation="vertical" >
+	        
+	        <ImageView
+	            android:id="@+id/upperRight"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+	        
+	        <ImageView
+	            android:id="@+id/middleRight"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+	        
+	        <ImageView
+	            android:id="@+id/bottomRight"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   />
+	        
+	      </LinearLayout>
+     </LinearLayout>
+     
+     <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:layout_marginBottom="@dimen/activity_horizontal_margin" >
+	     
+          <SeekBar
+              	android:id="@+id/seekBar"
+     			android:layout_width="match_parent"
+        		android:layout_height="wrap_content" />
+	 </LinearLayout>
+</LinearLayout>
+        
